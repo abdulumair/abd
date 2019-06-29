@@ -1,0 +1,65 @@
+    1  sudo cat /etc/os-release
+    2  sudo apt install apache2
+    3  sudo systemctl start apache2
+    4  sudo systemctl status apache2
+    5  ifconfig
+    6  exit
+    7  ifconfig
+    8  exit
+    9  ifconfig
+   10  sudo vi etc/ssh/sshd-config
+   11  sudo vi /etc/ssh/sshd-config
+   12  sudo vi /etc/ssh/sshd_config
+   13  cat /etc/os-release 
+   14  sudo systemctl restart ssh
+   15  sudo systemctl status ssh
+   16  ssh vagrant@192.168.1.15
+   17  exit
+   18  ifconfig
+   19  ssh-keygen
+   20  cd .ssh
+   21  ls
+   22  ssh-copy-id vagrant@192.168.1.15
+   23  ssh vagrant@192.168.1.15
+   24  exit
+   25  mkdir d1
+   26  cd d1
+   27  git init
+   28  git config --global user.name "abdul"
+   29  git config --global user.email "abdul@gmail.com"
+   30  git config --global --list
+   31  ls
+   32  cd ..
+   33  ls
+   34  touch f1 f2 f3
+   35  ls
+   36  git remote add origin https://github.com/abdulumair/abd.git
+   37  pwd
+   38  cd d1
+   39  git remote add origin https://github.com/abdulumair/abd.git
+   40  git push -u origin branch
+   41  cd ..
+   42  git init
+   43  pwd
+   44  ls
+   45  git remote add origin https://github.com/abdulumair/abd.git
+   46  git push -u origin branch
+   47  git status
+   48  ls
+   49  ls -a
+   50  rm -rfv .git
+   51  mkdir d2
+   52  cd d2
+   53  git init
+   54  touch f5 f6 f7
+   55  ls
+   56  git status
+   57  git add .
+   58  git status
+   59  git commit -m " add f5 f6 f7"
+   60  rit remote -v
+   61  git remote -v
+   62  git remote add origin https://github.com/abdulumair/abd.git
+   63  git push -u origin master
+   64  history
+   65  history >29june
